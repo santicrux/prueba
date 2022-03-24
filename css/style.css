@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+body{
+    background: url(../imagenes/descarga.jpg);
+    text-align: center;
+    background-color: #ffffff;
+    font-family: font-family: 'Raleway', sans-serif;
+    /* el éso de la tipografia debe ser de 300 a 700 */
+    /* fonde de color #2396bd */
+}    
+/* este elemento se conoce como selector (button) */
+button{
+    /* el corchete es el limite */
+    /* pudding es una propiedad y despues del punto esta el valor de la propiedad */
+    padding: 12px 60px; 
+    margin: 20px;
+    font-size: 24px;
+    background: #000000;
+    color: #165216;
+    border-radius: 11px;
+    border: 4px solid #ffffff;
+    /* el efecto hover para que cambie la forma del cursor */
+    cursor: pointer;
+    /* pointer para la manito, move para el efecto de movimiento */
+    transition: 0.5;
+
+}
+button:hover{
+    background: #ffffff;
+    color: #000000;
+    padding: 12px 80px;
+
+}
+h1{
+    color: #ffffff;
+    font-size: 40px;
+}
